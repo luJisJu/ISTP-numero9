@@ -1,0 +1,11 @@
+@use 'sass/config/media' as m;
+
+%paddingDocument {
+  padding: 0 10%;
+  @include m.largeScreen(true) {
+    padding: 0 30px;
+  }
+  @include m.mediumScreen() {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,6 @@
+@use 'sass/functions/flex' as f;
+
+.container {
+  @include f.flex();
+  min-height: 100vh;
+}

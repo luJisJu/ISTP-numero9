@@ -1,0 +1,43 @@
+{
+  "name": "numero7",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "format": "prettier -w .",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "husky:prepare": "husky install",
+    "husky:set": "npx husky add .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"'"
+  },
+  "dependencies": {
+    "@commitlint/cli": "17.7.1",
+    "@hookform/resolvers": "3.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.45.4",
+    "react-query": "3.39.3",
+    "react-router-dom": "6.15.0",
+    "zustand": "4.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "17.7.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "6.5.0",
+    "@typescript-eslint/parser": "6.5.0",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.3",
+    "husky": "8.0.3",
+    "prettier": "3.0.3",
+    "sass": "1.66.1",
+    "typescript": "5.2.2",
+    "vite": "4.4.9"
+  }
+}
