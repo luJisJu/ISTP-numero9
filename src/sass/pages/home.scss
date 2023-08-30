@@ -9,9 +9,13 @@
   background-color: v.$bg-3;
   width: 40%;
   padding: 20px;
-  border-radius: 20px;
-  height: 70vh;
+  border-radius: 10px;
+  max-height: 70vh;
   margin: 20px auto;
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
   &-field {
     width: 100%;
     height: auto;

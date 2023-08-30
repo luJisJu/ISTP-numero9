@@ -12,4 +12,9 @@ nav {
     height: 40px;
   }
   margin-bottom: 20px;
+
+  ul {
+    @include f.flex($jus: space-between);
+    gap: 20px;
+  }
 }

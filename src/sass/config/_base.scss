@@ -110,12 +110,12 @@ button {
     cursor: default !important;
   }
   $typesBtn: (
-    'success' $bg-green $cl-2,
-    'error' $bg-red $cl-2,
-    'warning' $bg-yel $cl-1,
-    'info' $bg-blue $cl-3,
-    'secure' $bg-grey $cl-2,
-    'normal' $bg-purple $cl-2
+    'success' $bg-green white,
+    'error' $bg-red white,
+    'warning' $bg-yel black,
+    'info' $bg-blue white,
+    'secure' $bg-grey black,
+    'normal' $bg-purple black
   );
   &.btn {
     border-radius: 10px;
