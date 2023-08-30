@@ -1,6 +1,34 @@
+@use 'sass/config/variables' as v;
 @use 'sass/functions/flex' as f;
 
 .container {
-  @include f.flex();
   min-height: 100vh;
+}
+
+.form {
+  background-color: v.$bg-3;
+  width: 40%;
+  padding: 20px;
+  border-radius: 20px;
+  height: 70vh;
+  margin: 20px auto;
+  &-field {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: v.$bg-1;
+    padding: 20px;
+    border-radius: 20px;
+    input {
+      width: 100%;
+      height: 100%;
+    }
+    select {
+      width: 100%;
+      height: 100%;
+      padding: 10px 0;
+      border-color: transparent;
+      cursor: pointer;
+    }
+  }
 }

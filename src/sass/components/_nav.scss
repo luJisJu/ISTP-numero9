@@ -1,0 +1,15 @@
+@use 'sass/config/variables' as v;
+@use 'sass/functions/flex' as f;
+
+nav {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px 0;
+  @include f.flex($jus: space-between);
+  button svg {
+    width: 40px;
+    height: 40px;
+  }
+  margin-bottom: 20px;
+}
